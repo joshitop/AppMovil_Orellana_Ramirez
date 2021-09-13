@@ -1,0 +1,41 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button class="menu-button" (click)="mostrarMenu()" >
+        <ion-icon slot="icon-only" name="menu-outline">
+        </ion-icon>       
+      </ion-button>
+    </ion-buttons>
+    <ion-title class="title1">GREN ENERGY</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-img src="assets/img/inicio.jpg"></ion-img>
+  <br><br><br><br>
+
+  <div class="center-div">
+    <ion-button class="button" (click)="presentAlert()" shape="round">
+      <ion-icon slot="start" name="log-in-outline">></ion-icon>
+      Ingresar
+    </ion-button>
+  </div>
+  <div class="center-div">
+    <ion-button class="button" routerLink="/registro" shape="round">
+      <ion-icon slot="start" name="receipt-outline"></ion-icon>
+      Registrar
+    </ion-button> 
+  </div>
+  <!-- INICIO DE SESIÓN     
+  <ion-list style="text-align:center">  
+    <ion-button (click)="presentAlert()" fill="clear" color="transparent">Ingresar
+      <ion-icon slot="start" name="log-in-outline">></ion-icon>
+    </ion-button> |
+    <ion-button routerLink="/registro" fill="clear" color="transparent">Registrarse
+      <ion-icon slot="start" name="receipt-outline"></ion-icon>
+    </ion-button>      
+  </ion-list>-->
+  
+  
+</ion-content>

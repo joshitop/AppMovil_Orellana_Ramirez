@@ -1,0 +1,47 @@
+ion-header{
+    //--ion-background-color:#3b5110;
+    --ion-background-color:#8badaa;
+}
+
+ion-content{
+    //--ion-background-color:#96ac60;
+    --ion-background-color:#dfe9ef;
+}
+
+.back-button {
+    color:#845c3d;
+    font-family: "Dreams bold";
+}
+    
+.title{
+    font-family: "Leixo";
+    color:rgb(255, 255, 255);
+    //text-align: start;
+    //color:#c9b4a0;
+    //color:#845c3d;
+    //font-size: medium;
+}
+
+
+.principal-title{
+    font-family: "Dreams bold";
+    color:#845c3d;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+ion-card{
+    --ion-background-color: white;
+}
+
+.card-title{
+    font-family: "Dreams bold";
+    color:#845c3d;
+    text-align: center;
+}
+
+.card-content{
+    font-family: "Dreams bold";
+    text-align: justify;
+    color:#99816b;
+}
